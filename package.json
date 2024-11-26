@@ -1,0 +1,24 @@
+{
+  "name": "ruchi_node_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruchi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.20.3",
+    "express": "4.19.2",
+    "express-status-monitor": "1.3.4",
+    "joi": "17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "6.9.0",
+    "node-rest-client": "3.1.1",
+    "nodemailer": "6.9.16",
+    "nodemon": "3.1.7",
+    "pg": "8.13.0",
+    "uuid": "11.0.3"
+  }
+}
