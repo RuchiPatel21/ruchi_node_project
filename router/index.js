@@ -1,4 +1,5 @@
 module.exports=function(app){
+    
     require('./employee') (app);
     require('./file_system') (app);
     require(__dirname+"/mongo_db")(app);
@@ -9,6 +10,7 @@ module.exports=function(app){
     require("./stream")(app);
     require("./uuid")(app);
     require("./json_web_token")(app);
+    require("./login_api")(app);
     
     
 

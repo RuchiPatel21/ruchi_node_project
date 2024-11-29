@@ -11,6 +11,7 @@ var bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({extended : false}));
 app.use(bodyParser.json());
 
+
 require ("./router") (app);
 
 // app.get('/', function (req, res) {
